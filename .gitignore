@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+
+# build output
+dist/
+.vite/
+
+# environment / secrets  (never commit these)
+.env
+.env.local
+backend/.env
+
+# editor / os
+.DS_Store
+*.log
+.idea/
+.vscode/
